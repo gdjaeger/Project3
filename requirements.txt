@@ -2,12 +2,11 @@ absl-py==1.4.0
 conda==23.3.1
 conda-build==3.23.3
 
-conda-pack @ file:///tmp/build/80754af9/conda-pack_1611163042455/work
+
 
 
 findspark==2.0.1
 
-Flask @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4eo947bliu/croot/flask_1671217361971/work
 
 
 
@@ -15,7 +14,7 @@ Flask @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4eo9
 
 
 pandas==1.5.3
-pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
+
 
 
 
@@ -26,9 +25,7 @@ pyspark==3.4.1
 
 
 
-regex @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_978efa21-43f5-4f43-9f25-acd8393817ddce2xcjaf/croots/recipe/regex_1658257186496/work
-requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_516b78ce-034d-4395-b9b5-1d78c2847384qtnol99l/croots/recipe/requests_1657734628886/work
-requests-file @ file:///Users/ktietz/demo/mc3/conda-bld/requests-file_1629455781986/work
+
 requests-oauthlib==1.3.1
 
 scipy==1.10.0
