@@ -1,9 +1,8 @@
 from app import app
 import os
 
+# Use the PORT environment variable if available, otherwise default to 5000
+port = int(os.environ.get("PORT", 5000))
+
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))  # Use port 5000 as a default if not set
-    print(f"Port: {port}")  # Debugging statement to print the port value
-
-    app.run(debug=True)
-
+    app.run(debug=True, host='0.0.0.0', port=port)
